@@ -15,8 +15,6 @@ Generate a Trello's key and token for Bitbucket.
 2. Generate a token. (replace {GENERATED KEY}.)
     * [https://trello.com/1/authorize?key={GENERATED KEY}&name=&expiration=never&response_type=token&scope=read,write](https://trello.com/1/authorize?key={GENERATED KEY}&name=&expiration=never&response_type=token&scope=read,write)
 
-Setting the both to serverless.yml.
-
 ### Installing
 
 Replace Trello's key and token on serverless.yml.
