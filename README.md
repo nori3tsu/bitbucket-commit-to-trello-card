@@ -43,6 +43,20 @@ ServiceEndpoint: https://xxx.execute-api.us-east-1.amazonaws.com/dev
 1. Open your Bitbucket's repository > Settings > Webhooks.
 2. Tap Add webhook, ServiceEndpoint/webhook generated previously enters a URL field and save.
     * example: `https://xxx.execute-api.us-east-1.amazonaws.com/dev/webhook`
+    
+## Tesging
+
+You can confirm a Trello's card id from url.
+
+For example: `https://trello.com/c/{Card ID}/xxx`.
+
+Finally, commit and push your repository with template of `tr[Trello's Card ID] messages`, so  will be reflected your commit to your card.
+
+For example:
+
+```
+tr[xxxxxxxx] test commit.
+```
 
 ## License
 
