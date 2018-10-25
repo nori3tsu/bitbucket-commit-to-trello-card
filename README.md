@@ -13,7 +13,7 @@ Generate a Trello's key and token for Bitbucket.
 1. Generate a key.
     * [https://trello.com/app-key](https://trello.com/app-key)
 2. Generate a token. (replace {GENERATED KEY}.)
-    * [https://trello.com/1/authorize?key={GENERATED\ KEY}&name=&expiration=never&response_type=token&scope=read,write](https://trello.com/1/authorize?key={GENERATED KEY}&name=&expiration=never&response_type=token&scope=read,write)
+    * [https://trello.com/1/authorize?key={GENERATED_KEY}&name=&expiration=never&response_type=token&scope=read,write](https://trello.com/1/authorize?key={GENERATED_KEY}&name=&expiration=never&response_type=token&scope=read,write)
 
 ### Installing
 
