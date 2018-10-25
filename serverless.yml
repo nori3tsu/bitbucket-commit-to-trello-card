@@ -1,0 +1,17 @@
+service: bitbucket-commit-to-trello-card
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  webhook:
+    handler: handler.webhook
+    environment:
+      TRELLO_KEY: {GENERATED KEY}
+      TRELLO_TOKEN: {GENERATED TOKEN}
+    events:
+      - http:
+          path: webhook
+          method: post
+          private: false

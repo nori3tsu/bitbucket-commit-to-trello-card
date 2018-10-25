@@ -1,0 +1,17 @@
+{
+  "name": "bitbucket-commit-to-trello-card",
+  "version": "1.0.0",
+  "description": "This repository is Bitbucket 's Webhook API to link Bitbucket' s commit and Trello 's cards.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Norimitsu Yamashita",
+  "license": "MIT",
+  "dependencies": {
+    "outdent": "^0.7.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "serverless": "^1.32.0"
+  }
+}
