@@ -4,7 +4,6 @@ const outdent = require('outdent');
 
 async function handle(event) {
   const body = JSON.parse(event.body);
-  console.log(body);
 
   await Promise.all(body.push.changes.map(async (changeEvent) => {
     await Promise.all(changeEvent.commits.map(async (commit) => {
