@@ -1,6 +1,6 @@
 # Bitbucket Commit To Trello Cards
 
-This repository is Bitbucket 's Webhook API to link Bitbucket' s commit and Trello 's cards.
+This repository is to link Bitbucket's commit and Trello 's card using API.
 
 You can do the same with zapier, but it takes time to reflect from commit to card. By using this repository mechanism, it can be reflected almost in real time.
 
