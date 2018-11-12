@@ -44,7 +44,7 @@ ServiceEndpoint: https://xxx.execute-api.us-east-1.amazonaws.com/dev
 2. Tap Add webhook, ServiceEndpoint/webhook generated previously enters a URL field and save.
     * example: `https://xxx.execute-api.us-east-1.amazonaws.com/dev/webhook`
     
-## Tesging
+## Testing
 
 You can confirm a Trello's card id from url.
 
